@@ -106,12 +106,15 @@ public class Main {
                 break;
 
             case 8:
+
+
                 System.out.println("20000, Pph < 2000, terurut membesar berdasarkan ID. \n" +
                         "select  * from T_SPT_21_TIDAK_FINAL\n" +
                         "where Bruto > 20000 and Pph < 2000\n" +
                         "order by ID asc\n");
 
-                System.out.println();
+                System.out.println("select count(*) as Jumlah, avg(Pph) as rata_rata_Pph\n" +
+                        "from T_SPT_21_TIDAK_FINAL\n");
 
                 break;
 
