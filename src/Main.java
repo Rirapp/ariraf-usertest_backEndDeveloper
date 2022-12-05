@@ -119,7 +119,7 @@ public class Main {
                 break;
 
             case 9:
-                FakturKeluaran();
+                Urutkan();
 
                 break;
 
@@ -135,7 +135,8 @@ public class Main {
     }
 
     private static void Urutkan() {
-        Integer[] intList = {22,22,1,3};
+//        Integer[] intList = {22,22,1,3};
+        Integer[] intList = {20,50,60,50,70,80,81,20,21};
         Arrays.sort(intList);
 
         for (int x = 0; x < intList.length; x++){
